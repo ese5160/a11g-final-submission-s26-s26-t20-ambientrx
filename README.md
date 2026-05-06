@@ -260,11 +260,12 @@ The TPS61032 boost rail held within 60 mV across the full sweep from 10% to 120%
 Per the assignment instructions, source code is not committed to this submission repository. The links below point to the GitHub repositories that hold the firmware, the Node-RED flow, and any auxiliary tooling used in the project.
 </p>
 
-- **Embedded C firmware (main board, sensor + MQTT + OTA):**[codebase1] (https://github.com/ese5160/final-project-firmware-s26-t20-ambientrx/tree/main/codebase1_custom_pcb)
+- **Embedded C firmware (main board, sensor + MQTT + OTA):** [codebase1](https://github.com/ese5160/final-project-firmware-s26-t20-ambientrx/tree/main/codebase1_custom_pcb)
 - **Embedded C firmware (camera node, ArduCam + pill counter):** [codebase2](https://github.com/ese5160/final-project-firmware-s26-t20-ambientrx/tree/main/codebase2_dev_board_arducam)
-- **Node-RED dashboard flow JSON:** [link to Node-RED folder in firmware repo]
+- **Node-RED dashboard flow JSON:** [Final Json Flow](https://github.com/ese5160/final-project-firmware-s26-t20-ambientrx/blob/main/Final_Node_Red.json)
 - **Altium 365 PCB project:** [Altium share link](https://upenn-eselabs.365.altium.com/designs/3506AE2D-F326-4D9F-B4A0-18F05DBD5EB6#design)
-- **Azure VM setup notes (Mosquitto + Node-RED):** [link if available]
+- **Dashboard:** [Dashboard Link](http://20.110.157.53:1880/dashboard/a08g-color)
+- **NODE-RED Flow** [Flow](http://20.110.157.53:1880/#flow/e5597df59e04756c)
 
 ### Open-Source Components Used
 
