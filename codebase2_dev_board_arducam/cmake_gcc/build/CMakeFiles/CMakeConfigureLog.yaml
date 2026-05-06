@@ -1,0 +1,1680 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/opt/make/libexec/gnubin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Darwin - 25.4.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/4.3.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    found: "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    found: "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-dlltool"
+      - "/opt/homebrew/bin/arm-none-eabi-dlltool"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-dlltool"
+      - "/opt/homebrew/sbin/arm-none-eabi-dlltool"
+      - "/usr/local/bin/arm-none-eabi-dlltool"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-dlltool"
+      - "/usr/bin/arm-none-eabi-dlltool"
+      - "/bin/arm-none-eabi-dlltool"
+      - "/usr/sbin/arm-none-eabi-dlltool"
+      - "/sbin/arm-none-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-dlltool"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-dlltool"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-dlltool"
+      - "/opt/X11/bin/arm-none-eabi-dlltool"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/opt/make/libexec/gnubin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/opt/pkg/env/active/bin/dlltool"
+      - "/opt/pmk/env/global/bin/dlltool"
+      - "/opt/X11/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    found: "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-tapi"
+      - "/opt/homebrew/bin/arm-none-eabi-tapi"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-tapi"
+      - "/opt/homebrew/sbin/arm-none-eabi-tapi"
+      - "/usr/local/bin/arm-none-eabi-tapi"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-tapi"
+      - "/usr/bin/arm-none-eabi-tapi"
+      - "/bin/arm-none-eabi-tapi"
+      - "/usr/sbin/arm-none-eabi-tapi"
+      - "/sbin/arm-none-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-tapi"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-tapi"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-tapi"
+      - "/opt/X11/bin/arm-none-eabi-tapi"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/opt/make/libexec/gnubin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/pkg/env/active/bin/tapi"
+      - "/opt/pmk/env/global/bin/tapi"
+      - "/opt/X11/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-12.2"
+      - "arm-none-eabi-gcc-ar-12"
+      - "arm-none-eabi-gcc-ar12"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-12.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-12.2"
+      - "/sbin/arm-none-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ar-12"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-12"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-12"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-12"
+      - "/usr/bin/arm-none-eabi-gcc-ar-12"
+      - "/bin/arm-none-eabi-gcc-ar-12"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-12"
+      - "/sbin/arm-none-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ar-12"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ar12"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar12"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar12"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar12"
+      - "/usr/bin/arm-none-eabi-gcc-ar12"
+      - "/bin/arm-none-eabi-gcc-ar12"
+      - "/usr/sbin/arm-none-eabi-gcc-ar12"
+      - "/sbin/arm-none-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ar12"
+    found: "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-12.2"
+      - "arm-none-eabi-gcc-ranlib-12"
+      - "arm-none-eabi-gcc-ranlib12"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/sbin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-12"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-12"
+      - "/sbin/arm-none-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib12"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib12"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib12"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib12"
+      - "/bin/arm-none-eabi-gcc-ranlib12"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib12"
+      - "/sbin/arm-none-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ranlib12"
+    found: "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/4.3.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-12.2"
+      - "arm-none-eabi-gcc-ar-12"
+      - "arm-none-eabi-gcc-ar12"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-12.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-12.2"
+      - "/sbin/arm-none-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ar-12.2"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ar-12"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-12"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-12"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-12"
+      - "/usr/bin/arm-none-eabi-gcc-ar-12"
+      - "/bin/arm-none-eabi-gcc-ar-12"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-12"
+      - "/sbin/arm-none-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-12"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ar-12"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ar12"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar12"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar12"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar12"
+      - "/usr/bin/arm-none-eabi-gcc-ar12"
+      - "/bin/arm-none-eabi-gcc-ar12"
+      - "/usr/sbin/arm-none-eabi-gcc-ar12"
+      - "/sbin/arm-none-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar12"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ar12"
+    found: "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-12.2"
+      - "arm-none-eabi-gcc-ranlib-12"
+      - "arm-none-eabi-gcc-ranlib12"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/sbin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ranlib-12.2"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-12"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-12"
+      - "/sbin/arm-none-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ranlib-12"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib12"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib12"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib12"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib12"
+      - "/bin/arm-none-eabi-gcc-ranlib12"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib12"
+      - "/sbin/arm-none-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib12"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib12"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ranlib12"
+    found: "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 12.2 (Build arm-12.24)) 12.2.1 20221205
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-"
+      - "/sbin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ar-"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-"
+      - "/sbin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ar-"
+    found: "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/opt/make/libexec/gnubin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pkg/env/active/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/opt/X11/bin/"
+    searched_directories:
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/opt/make/libexec/gnubin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/X11/bin/arm-none-eabi-gcc-ranlib-"
+    found: "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/opt/make/libexec/gnubin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pkg/env/active/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/opt/X11/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-2dO6cw"
+      binary: "/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-2dO6cw"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-2dO6cw'
+        
+        Run Build Command(s): /Users/ananyabhat/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_54172
+        [1/2] /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc @CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2 (Build arm-12.24)) 
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_54172.dir/Debug/'
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1 -quiet -v -iprefix /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_54172.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/ps/3rw6xl0j5nn8txtw_92jt8240000gn/T//ccAb9IM7.s
+        GNU C17 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+        ignoring nonexistent directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+        ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C17 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: b051748e6cb8fe9cdcfb9cd31e398caa
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_54172.dir/Debug/'
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/ps/3rw6xl0j5nn8txtw_92jt8240000gn/T//ccAb9IM7.s
+        GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2 (Build arm-12.24)) 2.39.0.20221210
+        COMPILER_PATH=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.'
+        [2/2] : && /opt/homebrew/bin/cmake -E rm -f Debug/libcmTC_54172.a && /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-ar qc Debug/libcmTC_54172.a  @CMakeFiles/cmTC_54172.Debug.rsp && /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_54172.a && /opt/homebrew/bin/cmake -E touch Debug/libcmTC_54172.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+          add: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+          add: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/lib/gcc/arm-none-eabi/12.2.1/include]
+        collapse include dir [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        collapse include dir [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include]
+        implicit include dirs: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/lib/gcc/arm-none-eabi/12.2.1/include;/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(arm-none-eabi-gcc|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-2dO6cw']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/ananyabhat/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_54172]
+        ignore line: [[1/2] /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc @CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2 (Build arm-12.24)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_54172.dir/Debug/']
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1 -quiet -v -iprefix /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_54172.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/ps/3rw6xl0j5nn8txtw_92jt8240000gn/T//ccAb9IM7.s]
+        ignore line: [GNU C17 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: b051748e6cb8fe9cdcfb9cd31e398caa]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_54172.dir/Debug/']
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/ps/3rw6xl0j5nn8txtw_92jt8240000gn/T//ccAb9IM7.s]
+        ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2 (Build arm-12.24)) 2.39.0.20221210]
+        ignore line: [COMPILER_PATH=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_54172.dir/Debug/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /opt/homebrew/bin/cmake -E rm -f Debug/libcmTC_54172.a && /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-ar qc Debug/libcmTC_54172.a  @CMakeFiles/cmTC_54172.Debug.rsp && /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_54172.a && /opt/homebrew/bin/cmake -E touch Debug/libcmTC_54172.a && :]
+        ignore line: []
+        ignore line: []
+        linker tool for 'C': [1/2] /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "[1/2] /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "[1/2] /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "[1/2] /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc" "--version"
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-IkrcFt"
+      binary: "/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-IkrcFt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-IkrcFt'
+        
+        Run Build Command(s): /Users/ananyabhat/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_d037c
+        [1/2] /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-g++ @CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2 (Build arm-12.24)) 
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d037c.dir/Debug/'
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -iprefix /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d037c.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/ps/3rw6xl0j5nn8txtw_92jt8240000gn/T//ccTUy7Gu.s
+        GNU C++17 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"
+        ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"
+        ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"
+        ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+        ignoring nonexistent directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+        ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C++17 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f0f3a7b1ef19c552eff395216faa1d26
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d037c.dir/Debug/'
+         /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/ps/3rw6xl0j5nn8txtw_92jt8240000gn/T//ccTUy7Gu.s
+        GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2 (Build arm-12.24)) 2.39.0.20221210
+        COMPILER_PATH=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /opt/homebrew/bin/cmake -E rm -f Debug/libcmTC_d037c.a && /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-ar qc Debug/libcmTC_d037c.a  @CMakeFiles/cmTC_d037c.Debug.rsp && /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_d037c.a && /opt/homebrew/bin/cmake -E touch Debug/libcmTC_d037c.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+          add: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+          add: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+          add: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+          add: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+          add: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1] ==> [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include/c++/12.2.1]
+        collapse include dir [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi] ==> [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+        collapse include dir [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward] ==> [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include/c++/12.2.1/backward]
+        collapse include dir [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/lib/gcc/arm-none-eabi/12.2.1/include]
+        collapse include dir [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        collapse include dir [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include]
+        implicit include dirs: [/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include/c++/12.2.1;/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include/c++/12.2.1/arm-none-eabi;/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include/c++/12.2.1/backward;/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/lib/gcc/arm-none-eabi/12.2.1/include;/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(arm-none-eabi-gcc|;ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-IkrcFt']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/ananyabhat/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_d037c]
+        ignore line: [[1/2] /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-g++ @CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-g++]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2 (Build arm-12.24)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d037c.dir/Debug/']
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -iprefix /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d037c.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/ps/3rw6xl0j5nn8txtw_92jt8240000gn/T//ccTUy7Gu.s]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"]
+        ignore line: [ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"]
+        ignore line: [ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"]
+        ignore line: [ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: f0f3a7b1ef19c552eff395216faa1d26]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d037c.dir/Debug/']
+        ignore line: [ /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/ps/3rw6xl0j5nn8txtw_92jt8240000gn/T//ccTUy7Gu.s]
+        ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2 (Build arm-12.24)) 2.39.0.20221210]
+        ignore line: [COMPILER_PATH=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../libexec/gcc/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_d037c.dir/Debug/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /opt/homebrew/bin/cmake -E rm -f Debug/libcmTC_d037c.a && /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-ar qc Debug/libcmTC_d037c.a  @CMakeFiles/cmTC_d037c.Debug.rsp && /Users/ananyabhat/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_d037c.a && /opt/homebrew/bin/cmake -E touch Debug/libcmTC_d037c.a && :]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...
