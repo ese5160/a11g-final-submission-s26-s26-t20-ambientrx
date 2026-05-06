@@ -1,4 +1,0 @@
-/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/slc.dir
-/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/wifi_http_otaf_camera.dir
-/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/edit_cache.dir
-/Users/ananyabhat/SimplicityStudio/v6_workspace/wifi_http_otaf_camera/cmake_gcc/build/CMakeFiles/rebuild_cache.dir

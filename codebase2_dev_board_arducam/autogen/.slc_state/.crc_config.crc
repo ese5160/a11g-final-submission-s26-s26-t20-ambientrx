@@ -1,6 +1,0 @@
-#CRC Codes for initially generated config files -- do not modify!
-sl_si91x_gspi_common_config.h=2029155083
-sl_si91x_gspi_config.h=1978602558
-sl_si91x_i2c_init_i2c2_config.h=1659899470
-sl_si91x_usart_common_config.h=272376598
-sl_si91x_usart_config.h=-896958500
