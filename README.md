@@ -254,6 +254,18 @@ The TPS61032 boost rail held within 60 mV across the full sweep from 10% to 120%
 
 ---
 
+### Casework, 3D rendered views
+
+<p align="justify">
+The enclosure was modeled in CAD to host the PCBA, the camera node, the fan, and the piezo humidifier reservoir, with cutouts for USB-C charging access and the front status LEDs. The four views below show the assembled casework from multiple angles.
+</p>
+
+| View 1 | View 2 |
+| :---: | :---: |
+| ![3D casework view 1](image/3d_case1.jpeg) | ![3D casework view 2](image/3d_case2.jpeg) |
+| **View 3** | **View 4** |
+| ![3D casework view 3](image/3d_case3.jpeg) | ![3D casework view 4](image/3d_case4.jpeg) |
+
 ## 5. Codebase
 
 <p align="justify">
