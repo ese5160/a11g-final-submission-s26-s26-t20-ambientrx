@@ -15,7 +15,7 @@
 
 ## 1. Video Presentation
 
-[YouTube demo link goes here]
+[Video Presentation Link](https://youtu.be/t0KlJewe77s)
 
 ---
 
@@ -107,7 +107,7 @@ What ESE5160 taught: the full stack of edge IoT, from schematic capture through 
 
 - **Node-RED dashboard:** [http://20.110.157.53:1880/dashboard/a08g-color](http://20.110.157.53:1880/dashboard/a08g-color)
 - **Altium 365 share link:** [AmbientRx PCB design](https://upenn-eselabs.365.altium.com/designs/3506AE2D-F326-4D9F-B4A0-18F05DBD5EB6#design)
-- **YouTube demo:** [link goes here]
+- **YouTube demo:** [Video demo](https://youtu.be/t0KlJewe77s)
 
 ---
 
