@@ -189,7 +189,7 @@ All photos are also available in the Drive folder linked below in case any image
 
 ### Final project, including casework and interfacing elements
 
-![Final assembled project with casework](image/Finalproject-casework.png)
+![Final assembled project with casework](image/3d_case4.jpeg)
 
 ### Standalone PCBA, top
 
