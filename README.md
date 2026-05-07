@@ -235,7 +235,7 @@ All photos are also available in the Drive folder linked below in case any image
 
 ### System block diagram
 
-![System block diagram](image/BlockDiagram.png)
+![System block diagram](image/SystemLevelDiagram.png)
 
 ### Performance of the PCB under load
 
