@@ -5,12 +5,13 @@
 **Team Number:** 20  
 **Team Name:** AmbientRx  
 **GitHub Repository URL:** https://github.com/ese5160/a11g-final-submission-s26-s26-t20-ambientrx.git
-**GitHub Pages Link** https://ese5160.github.io/a11g-final-submission-s26-s26-t20-ambientrx/
+
 | Team Member Name | Email Address | GitHub Handle |
 | --- | --- | --- |
 | Ananya Shivarama Bhat | ananya9@seas.upenn.edu | ananya9-cyber |
 | Anushka Jain | anushkaj@seas.upenn.edu | anushkaj |
 
+**GitHub Pages Link:** https://ese5160.github.io/a11g-final-submission-s26-s26-t20-ambientrx/
 ---
 
 ## 1. Video Presentation
