@@ -11,7 +11,9 @@
 | Ananya Shivarama Bhat | ananya9@seas.upenn.edu | ananya9-cyber |
 | Anushka Jain | anushkaj@seas.upenn.edu | anushkaj |
 
-**GitHub Pages Link:** https://ese5160.github.io/a11g-final-submission-s26-s26-t20-ambientrx/
+**GitHub Pages Link:** 
+
+[GitHub Pages](https://ese5160.github.io/a11g-final-submission-s26-s26-t20-ambientrx/)
 ---
 
 ## 1. Video Presentation
